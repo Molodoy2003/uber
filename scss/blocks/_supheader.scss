@@ -1,0 +1,47 @@
+
+.supheader {
+    background: #212121;
+    height: 53px;
+}
+.supheader__container {
+}
+.supheader__body {
+}
+.menu {
+    padding-top: 18px;
+}
+.menu__item {
+    display: flex;
+    justify-content: space-between;
+}
+.menu__link {
+}
+.link {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+    &:hover {
+        text-decoration: underline;
+        color:aqua;
+        transition: 0.2s ease-in;
+    }
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+
+    &__span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+    }
+}

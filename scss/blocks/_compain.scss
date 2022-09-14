@@ -1,0 +1,39 @@
+
+.compain {
+    background: url('./../../img/uber_bg.png') center center/cover no-repeat;
+    padding: 135px 0px 165px 0px;
+}
+.compain__container {
+}
+.compain__body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.compain__title {
+    padding-bottom: 16px;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.compain__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 116px;
+}
+.compain__button {
+    display: inline-block;
+}
+.compain-btn {
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    padding: 15px 25px;
+}

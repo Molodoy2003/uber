@@ -1,0 +1,57 @@
+
+.map {
+    background-color: black;
+    height: 716px;
+}
+.map__container {
+    background: url('./../../img/world_bg.png') center (center/cover) no-repeat;
+    height: 100%;
+}
+.map__body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.map__logo {
+    padding-top: 48px;
+}
+.map__logo-text {
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #070716;
+    width: 75px;
+    height: 25px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.map__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-top: 26px;
+    color: #FFFFFF;
+}
+.map__subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 456px;
+}
+.map__button {
+    display: inline-block;
+}
+.map__btn {
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #1FBAD6;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

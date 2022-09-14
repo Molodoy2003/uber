@@ -1,0 +1,102 @@
+
+.capabilities {
+    background: url('../../img/mobile_bg.png') center center/cover no-repeat;
+}
+.capabilities__container {
+}
+.capabilities__label {
+    width: 115px;
+    height: 27px;
+    background-color: black;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 33px;
+}
+.capabilities__title {
+    color: black;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.capabilities__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #222222;
+    padding-bottom: 30px;
+}
+.capabilities__body {
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-2 {
+    justify-content: space-between;
+    display: flex;
+    flex: 0 1 33.333%;
+    background: url('./../../img/Карточка\ 1.png') center no-repeat;
+    margin-bottom: 20px;
+}
+.column-3 {
+    justify-content: space-between;
+    display: flex;
+    flex: 0 1 33.333%;
+    background: url('./../../img/Карточка\ 2.png') center no-repeat;
+    margin-bottom: 20px;
+}
+.column-4 {
+    justify-content: space-between;
+    display: flex;
+    flex: 0 1 33.333%;
+    background: url('./../../img/Карточка\ 3.png') center no-repeat;
+    margin-bottom: 20px;
+}
+.column__items-2 {
+}
+.column__text-2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 290px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 82px 0px 135px 60px;
+}
+.column-5 {
+    justify-content: space-between;
+    display: flex;
+    flex: 0 1 33.333%;
+    background: url('./../../img/Карточка\ 4.png') center no-repeat;
+}
+.column-6 {
+    justify-content: space-between;
+    display: flex;
+    flex: 0 1 33.333%;
+    background: url('./../../img/Карточка\ 5.png') center no-repeat;
+}
+.column-7 {
+    justify-content: space-between;
+    display: flex;
+    flex: 0 1 33.333%;
+    background: url('./../../img/Карточка\ 6.png') center no-repeat;
+}
+.column__text-7 {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 290px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 82px 0px 135px 60px;
+}
